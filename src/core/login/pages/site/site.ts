@@ -79,7 +79,8 @@ export class CoreLoginSitePage {
 
         this.showKeyboard = !!navParams.get('showKeyboard');
 
-        let url = '';
+        let url = 'http://helms.edu.af';
+    
 
         // Load fixed sites if they're set.
         if (this.loginHelper.hasSeveralFixedSites()) {
